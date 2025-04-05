@@ -24,9 +24,7 @@ body {
 
 /* 时钟 */
 .time_date{
-    justify-content: center;
-    align-items: center;
-/*     text-align: center; */
+    text-align: center;
     color: rgb(255, 255, 255);
     font-family: 'Segoe UI', system-ui, sans-serif;
 }
