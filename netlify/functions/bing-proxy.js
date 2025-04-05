@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 exports.handler = async (event) => {
   try {
     // 获取必应API数据（添加模拟浏览器请求头）
-    const apiResponse = await fetch('https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=zh-CN', {
+    const apiResponse = await fetch('https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US', {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
         'Referer': 'https://www.bing.com/'
