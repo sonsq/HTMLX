@@ -9,18 +9,15 @@
 }
 
 body {
-    user-select: none;
-    -webkit-user-select: none;
-    -webkit-user-drag: none;
-    /* background: url(../image/img.jpg) rgba(200, 200, 200, 0.5) no-repeat fixed; */
-    /* background: url(../image/bj.jpg) rgba(200, 200, 200, 0.5); */
-    /* background: url(https://api.oneneko.com/v1/bing_today) rgba(200, 200, 200, 0.5) no-repeat fixed; */
-    /* background: url(../php/bing_api.php) rgba(200, 200, 200, 0.5) no-repeat fixed; */
-    /* background: url(https://www.yumus.cn/api/?target=img&brand=bing&ua=pc) rgba(200, 200, 200, 0.5) no-repeat fixed; */
-    background-blend-mode: multiply;
+    margin: 0;
+    height: 100vh;
     background-size: cover;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-position: center;
+    background-color: #000; /* 默认黑色背景 */
+    transition: background-image 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* 时钟 */
