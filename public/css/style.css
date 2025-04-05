@@ -3,9 +3,6 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-}
-
-:root {
     --pc-bg: url('');
     --pad-bg: url('');
     --mobile-bg: url('');
@@ -20,7 +17,7 @@ body {
     /* background: url(https://api.oneneko.com/v1/bing_today) rgba(200, 200, 200, 0.5) no-repeat fixed; */
     /* background: url(../php/bing_api.php) rgba(200, 200, 200, 0.5) no-repeat fixed; */
     /* background: url(https://www.yumus.cn/api/?target=img&brand=bing&ua=pc) rgba(200, 200, 200, 0.5) no-repeat fixed; */
-/*     background-blend-mode: multiply; */
+    background-blend-mode: multiply;
     background-size: cover;
     box-sizing: border-box;
     font-family: 'Segoe UI', system-ui, sans-serif;
