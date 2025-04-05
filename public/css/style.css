@@ -9,13 +9,12 @@
 }
 
 body {
-    margin: 0;
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-color: #000; /* 默认黑色背景 */
     transition: background-image 0.5s;
-    display: flex;
+/*     display: flex; */
     justify-content: center;
     align-items: center;
 }
