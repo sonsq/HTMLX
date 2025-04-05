@@ -10,6 +10,55 @@
 <body>
     <div class="loading">正在加载壁纸...</div>
     <div class="copyright"></div>
+
+    <!-- 时间&日期 -->
+    <div class="time_date">
+        <div class="time" id="show_time"></div>
+         <div class="date" id="show_date"></div>
+    </div>
+
+    <div class="search-container">
+         <div class="engine-selector">
+             <div class="current-engine">
+                 <img src="./image/bing.svg" class="engine-icon" id="current-icon">
+             </div>
+        </div>
+        <input type="text" class="search-input" id="searchInput" placeholder="输入搜索内容">
+        <button class="search-btn">
+             <i class="fas fa-search"></i>
+         </button>
+          
+        <div class="dropdown-list" id="engineList">
+             <div class="engine-option" data-engine="bing">
+                <img src="./image/bing.svg" class="engine-icon">
+                <span class="engine-name">必应</span>
+            </div>
+            <div class="engine-option" data-engine="baidu">
+                 <img src="./image/baidu.svg" class="engine-icon">
+                 <span class="engine-name">百度</span>
+            </div>
+             <div class="engine-option" data-engine="google">
+                <img src="./image/google.svg" class="engine-icon">
+                <span class="engine-name">谷歌</span>
+             </div>
+             <div class="engine-option" data-engine="360">
+                 <img src="./image/so.svg" class="engine-icon">
+                 <span class="engine-name">360</span>
+             </div>
+             <div class="engine-option" data-engine="zhihu">
+                <img src="./image/zhi.svg" class="engine-icon">
+                 <span class="engine-name">知乎</span>
+            </div>
+            <div class="engine-option" data-engine="sogou">
+                <img src="./image/sou.svg" class="engine-icon">
+                 <span class="engine-name">搜狗</span>
+             </div>
+             <div class="engine-option" data-engine="toutiao">
+                 <img src="./image/tou.svg" class="engine-icon">
+                 <span class="engine-name">头条</span>
+             </div>
+        </div>
+    </div>
     
     <script src="js/data&time.js"></script>
     <script src="js/script.js"></script>
