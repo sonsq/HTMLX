@@ -12,14 +12,14 @@
 }
 
 body {
-    height: 100vh;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    background: no-repeat fixed;
     background-size: cover;
     background-position: center;
     background-color: #000; /* 默认黑色背景 */
     transition: background-image 0.5s;
-/*     display: flex; */
-    justify-content: center;
-    align-items: center;
 }
 
 /* 时钟 */
