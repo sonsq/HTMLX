@@ -275,6 +275,16 @@ body {
             border-radius: 5px;
 }
 
+.copyright {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
 .boottom{
     height: 35px;
     margin-top: 30px;
