@@ -55,7 +55,7 @@
     <div class="loading">正在加载壁纸...</div>
     <div class="copyright"></div>
 
-    <script src="js/data&time.js"></script>
+    // <script src="js/data&time.js"></script>
     // <script src="js/script.js"></script>
     <script src="js/bj.js"></script>
 </body>
