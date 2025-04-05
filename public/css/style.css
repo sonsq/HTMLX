@@ -3,6 +3,9 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+}
+
+:root {
     --pc-bg: url('');
     --pad-bg: url('');
     --mobile-bg: url('');
