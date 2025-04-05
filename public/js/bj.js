@@ -56,7 +56,7 @@
     <div class="copyright"></div>
 
     <script src="js/data&time.js"></script>
-    <script src="js/script.js"></script>
+    // <script src="js/script.js"></script>
     <script src="js/bj.js"></script>
 </body>
 </html>
