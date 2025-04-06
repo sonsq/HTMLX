@@ -254,7 +254,8 @@ body {
 .site .name{
     max-width: 80px;
     font-size: 14px;
-    color: rgb(35, 35, 35);
+    /* color: rgb(35, 35, 35); */
+    color：rgb(255, 255, 255);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
