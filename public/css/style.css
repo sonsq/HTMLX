@@ -205,7 +205,7 @@ body {
 }
 
 .title-name{
-    font-size: 16px;
+    font-size: 22px;
     color: rgba(255, 255, 255, 1);
     text-shadow: 0px 1px 16px rgba(25, 25, 25, 1);
 }
@@ -242,7 +242,7 @@ body {
 
 .site .name{
     max-width: 80px;
-    font-size: 18px;
+    font-size: 14px;
     color: rgba(255, 255, 255, 1);
     overflow: hidden;
     text-overflow: ellipsis;
