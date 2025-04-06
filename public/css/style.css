@@ -198,14 +198,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-basis: 100px;
+    flex-basis: 95px;
     flex-shrink: 0;
     min-height: 120px;
     /* border-right: 1px solid rgba(255, 255, 255, 0.609); */
 }
 
 .title-name{
-    font-size: 20px;
+    font-size: 18px;
     color: rgba(255, 255, 255, 1);
     text-shadow: 0px 1px 3px rgba(25, 25, 25, 1);
 }
