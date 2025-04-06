@@ -97,7 +97,7 @@ body {
     position: absolute;
     top: calc(100% + 10px);
 /*     width: 97%; */
-    width: calc(100% -3px);
+    width: calc(100%);
     border-radius: 25px;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
