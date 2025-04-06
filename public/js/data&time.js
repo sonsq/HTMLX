@@ -16,7 +16,7 @@ function showTime() {
 	var year = now.getFullYear();
 	var month = now.getMonth() + 1;
 	var day = now.getDate();
-	var weeks = ["天", "一", "二", "三", "四", "五", "六"];
+	var weeks = ["日", "一", "二", "三", "四", "五", "六"];
 	var hour = now.getHours();
 	var minute = now.getMinutes();
 	var second = now.getSeconds();
