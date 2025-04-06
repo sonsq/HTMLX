@@ -30,7 +30,7 @@ exports.handler = async (event) => {
         pad: `https://www.bing.com${baseUrl}${resolutions.pad}.jpg`,
         mobile: `https://www.bing.com${baseUrl}${resolutions.mobile}.jpg`,
         uhd: `https://www.bing.com${baseUrl}${resolutions.uhd}.jpg`,
-        copyright: data.images[0]
+        // copyright: data.images[0].copyright
       })
     };
   } catch (error) {
