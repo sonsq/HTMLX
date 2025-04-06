@@ -58,7 +58,7 @@ body {
 .engine-selector {
     position: relative;
     width: 60px;
-   /* border-radius: 25px 0 0 25px; */
+   border-radius: 12px 0 0 12px；
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -158,7 +158,7 @@ body {
 .search-btn {
     width: 60px;
     border: none;
-    /* border-radius: 0 25px 25px 0; */
+    border-radius: 0 12px 12px 0;
     cursor: pointer;
     transition: all 0.2s;
     display: flex;
