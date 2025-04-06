@@ -46,7 +46,7 @@ body {
     margin: 0 auto;
     max-width: 600px;
     display: flex;
-    border: 5px solid rgba(0, 0, 0, 1);
+    border-radius: 12px;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
@@ -58,7 +58,6 @@ body {
 .engine-selector {
     position: relative;
     width: 60px;
-   border-radius: 12px 0 0 12px；
     cursor: pointer;
     transition: background 0.3s;
 }
@@ -158,7 +157,6 @@ body {
 .search-btn {
     width: 60px;
     border: none;
-    border-radius: 0 12px 12px 0;
     cursor: pointer;
     transition: all 0.2s;
     display: flex;
