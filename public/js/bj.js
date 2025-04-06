@@ -1,6 +1,6 @@
 async function loadWallpaper() {
     const loading = document.querySelector('.loading');
-    // const copyright = document.querySelector('.copyright');
+    const copyright = document.querySelector('.copyright');
     
     try {
         loading.style.display = 'block';
