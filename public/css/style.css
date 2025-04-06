@@ -242,7 +242,7 @@ body {
 
 .site .name{
     max-width: 80px;
-    font-size: 14px;
+    font-size: 18px;
     color: rgba(255, 255, 255, 1);
     overflow: hidden;
     text-overflow: ellipsis;
