@@ -26,7 +26,7 @@ body {
 .time_date{
     text-align: center;
     color: rgba(255, 255, 255, 1);
-    text-shadow: 0px 0px 16px rgba(35, 35, 35, 1);
+    text-shadow: 0px 0px 8px rgba(35, 35, 35, 1);
     font-family: 'Segoe UI', system-ui, sans-serif;
 }
 
@@ -156,7 +156,7 @@ body {
 }
 
 .search-btn {
-    width: 65px;
+    width: 60px;
     border: none;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
@@ -164,16 +164,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.89) border-box;
 }
 
-/* .search-btn:hover {
-    background: rgba(0, 86, 179, 1);
-} */
-
-.search-btn i {
-    color: rgba(0, 86, 179, 1);
-    font-size: 20px;
+.search-ico {
+    width: 30px;
+    height: 30px;
 }
 
 /* 网站收藏 */
