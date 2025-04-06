@@ -58,7 +58,7 @@ body {
 .engine-selector {
     position: relative;
     width: 60px;
-    border-radius: 25px 0 0 25px;
+   /* border-radius: 25px 0 0 25px; */
     cursor: pointer;
     transition: background 0.3s;
 }
