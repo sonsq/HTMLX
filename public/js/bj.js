@@ -1,6 +1,6 @@
 async function loadWallpaper() {
     const loading = document.querySelector('.loading');
-    const copyright = document.querySelector('.copyright');
+    // const copyright = document.querySelector('.copyright');
     
     try {
         loading.style.display = 'block';
@@ -24,13 +24,13 @@ async function loadWallpaper() {
         document.documentElement.style.setProperty('--pad-bg', `url('${data.pad}')`);
         document.documentElement.style.setProperty('--mobile-bg', `url('${data.mobile}')`);
         
-        copyright.textContent = data.copyright;
-    } catch (error) {
-        console.error('加载失败:', error);
-        document.body.style.background = '#1a1a1a';
-        copyright.textContent = '壁纸加载失败，请刷新重试';
-    } finally {
-        loading.style.display = 'none';
+        // copyright.textContent = data.copyright;
+    // } catch (error) {
+        // console.error('加载失败:', error);
+        // document.body.style.background = '#1a1a1a';
+        //copyright.textContent = '壁纸加载失败，请刷新重试';
+    // } finally {
+        // loading.style.display = 'none';
     }
 }
 
