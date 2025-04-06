@@ -132,10 +132,10 @@ body {
     margin: 3px;
 }
 
-.engine-option:hover {
+/* .engine-option:hover {
     background: rgba(0, 0, 0, 0.05);
     transform: translateY(-2px);
-}
+} */
 
 .engine-name {
     font-size: 12px;
