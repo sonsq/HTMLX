@@ -96,8 +96,7 @@ body {
 .dropdown-list {
     position: absolute;
     top: calc(100% + 10px);
-/*     width: 97%; */
-    width: calc(100%);
+    width: 97%;
     border-radius: 25px;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
