@@ -157,7 +157,7 @@ body {
 
 .search-btn {
     width: 65px;
-    background: rgba(35, 116, 212, 1);
+    background: rgba(230, 230, 230, 1);
     border: none;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
@@ -167,12 +167,12 @@ body {
     justify-content: center;
 }
 
-.search-btn:hover {
+/* .search-btn:hover {
     background: rgba(0, 86, 179, 1);
-}
+} */
 
 .search-btn i {
-    color: rgba(236, 234, 234, 1);
+    color: (0, 86, 179, 1);
     font-size: 20px;
 }
 
