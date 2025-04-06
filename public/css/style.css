@@ -258,6 +258,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    text-shadow: 2px 2px 8px rgb(35, 35, 35);
 }
 
 .site:hover>.name{
