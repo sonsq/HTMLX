@@ -207,7 +207,7 @@ body {
 .title-name{
     font-size: 16px;
     color: rgba(255, 255, 255, 1);
-    text-shadow: 0px 1px 2px rgba(35, 35, 35, 1);
+    text-shadow: 0px 1px 32px rgba(35, 35, 35, 1);
 }
 
 .content{
