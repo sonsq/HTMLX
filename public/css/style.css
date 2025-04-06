@@ -18,14 +18,14 @@ body {
     background: no-repeat fixed;
     background-size: cover;
     background-position: center;
-    background-color: #000; /* 默认黑色背景 */
+    background-color: rgba(0, 0, 0, 1); /* 默认黑色背景 */
     transition: background-image 0.5s;
 }
 
 /* 时钟 */
 .time_date{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 1);
     font-family: 'Segoe UI', system-ui, sans-serif;
 }
 
@@ -212,14 +212,14 @@ body {
     height: 25px;
     line-height: 25px;
     border-radius: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .title-name .name{
     margin-left: 8px;
     margin-right: 8px;
     font-size: 14px;
-    color: rgb(35, 35, 35);
+    color: rgba(35, 35, 35, 1);
 }
 .content{
     display: flex;
@@ -243,7 +243,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 1);
 }
 
 .site img{
@@ -254,7 +254,7 @@ body {
 .site .name{
     max-width: 80px;
     font-size: 14px;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 1);
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -263,7 +263,7 @@ body {
 
 .site:hover>.name{
     text-decoration: underline;
-    color: rgb(20, 88, 255);
+    color: rgba(20, 88, 255, 1);
 }
 
 .copyright {
