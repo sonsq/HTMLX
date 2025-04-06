@@ -189,6 +189,7 @@ body {
 }
 
 .item{
+    width: 50px
     display: flex;
     padding: 0 25px;
     /* border-bottom: 1px solid rgba(255, 255, 255, 0.609); */
